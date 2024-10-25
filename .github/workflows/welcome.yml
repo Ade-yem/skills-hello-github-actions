@@ -4,4 +4,8 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
-  
+jobs:
+  build:
+    name: Post Welcome Message
+    runs-on: ubuntu-lateset
+    
